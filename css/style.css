@@ -17,7 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding: 30px
 }
 
 h1 {
@@ -38,4 +38,18 @@ h1 {
     padding: 10px;
     line-height: 30px;
     margin: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #915858;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.btn{
+    text-align: center;
 }
