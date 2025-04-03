@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3B6B6;
+}
+
+
+.container{
+    background-color: #FFD7D7;
+    max-width: 1080px;
+    border: 5px double #C38888;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #915858;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#email-list li{
+    list-style-type: none;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 400px;
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+    margin: 10px;
+}
