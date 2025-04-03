@@ -13,10 +13,13 @@ for (let i=0; i<=10; i++){
     axios.get(endpoint).then(res => {
         const email = res.data.response
         console.log(email)
+        emails.push(email)
 
 
         const li = document.createElement('li');
         console.log(li)
-
+        li.textContent = email;
+        emailList.appendChild(li)
     })
 }
+
