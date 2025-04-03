@@ -14,5 +14,9 @@ for (let i=0; i<=10; i++){
         const email = res.data.response
         console.log(email)
 
+
+        const li = document.createElement('li');
+        console.log(li)
+
     })
 }
