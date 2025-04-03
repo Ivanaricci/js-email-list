@@ -1,6 +1,6 @@
 // Recuper gli elementi del DOM
 const emailList = document.getElementById("email-list");
-
+const button = document.getElementById('button')
 // dichiaro le variabili
 const emails = []
 const endpoint = ` https://flynn.boolean.careers/exercises/api/random/mail`
